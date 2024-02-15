@@ -173,15 +173,12 @@
         <rule label="413" key="{00f7becf-7efe-4e73-9ef1-fe1cae81101c}" filter="&quot;landuse&quot; = 'orchard'" symbol="23"/>
         <rule label="414" key="{7a8c729c-77ed-448e-b020-51b1e4cb068f}" filter="&quot;landuse&quot; = 'vineyard'" symbol="24"/>
         <rule label="501" key="{73f08ceb-0e68-4f49-843c-9d4c93373884}" filter="&quot;amenity&quot; = 'parking'" symbol="25"/>
-        <rule label="501" key="{70e1a637-4ee3-4eb5-b830-de53e63811e6}" filter="&quot;highway&quot; = 'cycleway' OR &quot;highway&quot; = 'primary' OR &quot;highway&quot; = 'secondary' OR &quot;highway&quot; = 'tertiary'" symbol="26"/>
-        <rule label="501" key="{18704e72-73fd-4d25-8418-d5788044ab4a}" filter="&quot;highway&quot; = 'track' AND (&quot;smoothness&quot; = 'good' OR &quot;smoothness&quot; = 'intermediate')" symbol="27"/>
-        <rule label="501" key="{5b376b8a-cfcb-4816-89df-82e0fe4058cd}" filter="&quot;highway&quot; = 'unclassified' OR &quot;highway&quot; = 'residential' OR &quot;highway&quot; = 'service' OR &quot;highway&quot; = 'living_street'" symbol="28"/>
-        <rule label="520" key="{169c7d95-78d0-4596-b6de-26669c07f9e0}" filter="&quot;landuse&quot; = 'allotments' OR &quot;landuse&quot; = 'cemetery' OR &quot;landuse&quot; = 'commercial' OR &quot;landuse&quot; = 'farmyard' OR &quot;landuse&quot; = 'industrial' OR &quot;landuse&quot; = 'residential'" symbol="29"/>
-        <rule label="521" key="{32237a21-e918-42bc-b8a6-c7c2a97b74f3}" filter="(&quot;building&quot; IS NOT NULL) AND (&quot;building&quot; &lt;> 'ruins')" symbol="30"/>
-        <rule label="521" key="{0372a127-143c-40f6-9f59-72245e715309}" filter="&quot;tourism&quot; = 'alpine_hut' OR &quot;tourism&quot; = 'chalet'" symbol="31"/>
-        <rule label="521" key="{d147e0e1-d232-4655-b136-c2d4171d6db9}" filter="&quot;amenity&quot; = 'shelter'" symbol="32"/>
-        <rule label="709" key="{0bdb3192-cd2d-4069-94e0-578d613fd2a4}" filter="&quot;landuse&quot; = 'military'" symbol="33"/>
-        <rule label="709" key="{4d958e1d-d17a-4b61-aa83-76956a5f5075}" filter="&quot;amenity&quot; = 'prison'" symbol="34"/>
+        <rule label="520" key="{169c7d95-78d0-4596-b6de-26669c07f9e0}" filter="&quot;landuse&quot; = 'allotments' OR &quot;landuse&quot; = 'cemetery' OR &quot;landuse&quot; = 'commercial' OR &quot;landuse&quot; = 'farmyard' OR &quot;landuse&quot; = 'industrial' OR &quot;landuse&quot; = 'residential'" symbol="26"/>
+        <rule label="521" key="{32237a21-e918-42bc-b8a6-c7c2a97b74f3}" filter="(&quot;building&quot; IS NOT NULL) AND (&quot;building&quot; &lt;> 'ruins')" symbol="27"/>
+        <rule label="521" key="{0372a127-143c-40f6-9f59-72245e715309}" filter="&quot;tourism&quot; = 'alpine_hut' OR &quot;tourism&quot; = 'chalet'" symbol="28"/>
+        <rule label="521" key="{d147e0e1-d232-4655-b136-c2d4171d6db9}" filter="&quot;amenity&quot; = 'shelter'" symbol="29"/>
+        <rule label="709" key="{0bdb3192-cd2d-4069-94e0-578d613fd2a4}" filter="&quot;landuse&quot; = 'military'" symbol="30"/>
+        <rule label="709" key="{4d958e1d-d17a-4b61-aa83-76956a5f5075}" filter="&quot;amenity&quot; = 'prison'" symbol="31"/>
       </rule>
     </rules>
     <symbols>
@@ -1417,10 +1414,10 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" id="{a6a670b8-34df-4856-82d5-9d480e6acd07}" class="SimpleFill">
+        <layer locked="0" enabled="1" pass="0" id="{61f0d66d-f42c-4119-8d0d-bf662120864b}" class="SimpleFill">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="243,202,159,255" name="color"/>
+            <Option type="QString" value="160,163,31,255" name="color"/>
             <Option type="QString" value="bevel" name="joinstyle"/>
             <Option type="QString" value="0,0" name="offset"/>
             <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
@@ -1448,10 +1445,10 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" id="{a6a670b8-34df-4856-82d5-9d480e6acd07}" class="SimpleFill">
+        <layer locked="0" enabled="1" pass="0" id="{ff9bf9e1-83f0-4691-b1ab-54fa93c66de7}" class="SimpleFill">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="243,202,159,255" name="color"/>
+            <Option type="QString" value="178,177,177,255" name="color"/>
             <Option type="QString" value="bevel" name="joinstyle"/>
             <Option type="QString" value="0,0" name="offset"/>
             <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
@@ -1479,10 +1476,10 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" id="{a6a670b8-34df-4856-82d5-9d480e6acd07}" class="SimpleFill">
+        <layer locked="0" enabled="1" pass="0" id="{ff9bf9e1-83f0-4691-b1ab-54fa93c66de7}" class="SimpleFill">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="243,202,159,255" name="color"/>
+            <Option type="QString" value="178,177,177,255" name="color"/>
             <Option type="QString" value="bevel" name="joinstyle"/>
             <Option type="QString" value="0,0" name="offset"/>
             <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
@@ -1510,10 +1507,10 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" id="{61f0d66d-f42c-4119-8d0d-bf662120864b}" class="SimpleFill">
+        <layer locked="0" enabled="1" pass="0" id="{ff9bf9e1-83f0-4691-b1ab-54fa93c66de7}" class="SimpleFill">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="160,163,31,255" name="color"/>
+            <Option type="QString" value="178,177,177,255" name="color"/>
             <Option type="QString" value="bevel" name="joinstyle"/>
             <Option type="QString" value="0,0" name="offset"/>
             <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
@@ -1572,99 +1569,6 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" id="{ff9bf9e1-83f0-4691-b1ab-54fa93c66de7}" class="SimpleFill">
-          <Option type="Map">
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="178,177,177,255" name="color"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="0,0,0,255" name="outline_color"/>
-            <Option type="QString" value="solid" name="outline_style"/>
-            <Option type="QString" value="0.26" name="outline_width"/>
-            <Option type="QString" value="MM" name="outline_width_unit"/>
-            <Option type="QString" value="solid" name="style"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol force_rhr="0" type="fill" alpha="1" frame_rate="10" name="31" is_animated="0" clip_to_extent="1">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" value="" name="name"/>
-            <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
-          </Option>
-        </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" id="{ff9bf9e1-83f0-4691-b1ab-54fa93c66de7}" class="SimpleFill">
-          <Option type="Map">
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="178,177,177,255" name="color"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="0,0,0,255" name="outline_color"/>
-            <Option type="QString" value="solid" name="outline_style"/>
-            <Option type="QString" value="0.26" name="outline_width"/>
-            <Option type="QString" value="MM" name="outline_width_unit"/>
-            <Option type="QString" value="solid" name="style"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol force_rhr="0" type="fill" alpha="1" frame_rate="10" name="32" is_animated="0" clip_to_extent="1">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" value="" name="name"/>
-            <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
-          </Option>
-        </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" id="{ff9bf9e1-83f0-4691-b1ab-54fa93c66de7}" class="SimpleFill">
-          <Option type="Map">
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="178,177,177,255" name="color"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="0,0,0,255" name="outline_color"/>
-            <Option type="QString" value="solid" name="outline_style"/>
-            <Option type="QString" value="0.26" name="outline_width"/>
-            <Option type="QString" value="MM" name="outline_width_unit"/>
-            <Option type="QString" value="solid" name="style"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol force_rhr="0" type="fill" alpha="1" frame_rate="10" name="33" is_animated="0" clip_to_extent="1">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" value="" name="name"/>
-            <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
-          </Option>
-        </data_defined_properties>
         <layer locked="0" enabled="1" pass="0" id="{7aaadb86-1808-490c-9a5d-d319e2b77732}" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" value="0" name="align_dash_pattern"/>
@@ -1728,7 +1632,7 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" type="line" alpha="1" frame_rate="10" name="@33@1" is_animated="0" clip_to_extent="1">
+          <symbol force_rhr="0" type="line" alpha="1" frame_rate="10" name="@30@1" is_animated="0" clip_to_extent="1">
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -1801,7 +1705,7 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" type="line" alpha="1" frame_rate="10" name="@33@2" is_animated="0" clip_to_extent="1">
+          <symbol force_rhr="0" type="line" alpha="1" frame_rate="10" name="@30@2" is_animated="0" clip_to_extent="1">
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -1850,7 +1754,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="fill" alpha="1" frame_rate="10" name="34" is_animated="0" clip_to_extent="1">
+      <symbol force_rhr="0" type="fill" alpha="1" frame_rate="10" name="31" is_animated="0" clip_to_extent="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -1921,7 +1825,7 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" type="line" alpha="1" frame_rate="10" name="@34@1" is_animated="0" clip_to_extent="1">
+          <symbol force_rhr="0" type="line" alpha="1" frame_rate="10" name="@31@1" is_animated="0" clip_to_extent="1">
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -1994,7 +1898,7 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" type="line" alpha="1" frame_rate="10" name="@34@2" is_animated="0" clip_to_extent="1">
+          <symbol force_rhr="0" type="line" alpha="1" frame_rate="10" name="@31@2" is_animated="0" clip_to_extent="1">
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -2451,8 +2355,8 @@
     </symbols>
   </renderer-v2>
   <labeling type="rule-based">
-    <rules key="{4f08e0e0-f9c1-48d2-ac75-6713e1c43a6f}">
-      <rule description="Building" key="{c15337af-cdeb-4aac-9d62-a14746bd44b5}" filter="@map_scale &lt;= 2500">
+    <rules key="{bf98a693-bf68-44fa-a9bd-7159b7bf54b2}">
+      <rule description="Building" key="{ad17498f-115a-4d35-a783-9ac702a20f44}" filter="@map_scale &lt;= 2500">
         <settings calloutType="simple">
           <text-style previewBkgrdColor="255,255,255,255" fontFamily=".AppleSystemUIFont" capitalization="0" textOrientation="horizontal" fontWeight="50" fontWordSpacing="0" allowHtml="0" blendMode="0" forcedItalic="0" fontLetterSpacing="0" fontItalic="0" fieldName="name" fontSizeUnit="Point" fontUnderline="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" multilineHeightUnit="Percentage" fontSize="11" multilineHeight="1" textColor="0,0,0,255" isExpression="0" fontKerning="1" legendString="Aa" namedStyle="Normal" forcedBold="0" fontStrikeout="0" useSubstitutions="0" textOpacity="1">
             <families/>
@@ -2537,7 +2441,7 @@
           </callout>
         </settings>
       </rule>
-      <rule description="Parking" key="{22e51520-0f32-44a8-8299-0620146e48a5}" filter="&quot;amenity&quot; IN ('parking','parking_space')">
+      <rule description="Parking" key="{0195921c-ed05-4002-b0e3-c322d1de25f1}" filter="&quot;amenity&quot; IN ('parking','parking_space')">
         <settings calloutType="simple">
           <text-style previewBkgrdColor="255,255,255,255" fontFamily=".AppleSystemUIFont" capitalization="0" textOrientation="horizontal" fontWeight="50" fontWordSpacing="0" allowHtml="0" blendMode="0" forcedItalic="0" fontLetterSpacing="0" fontItalic="0" fieldName="'P'" fontSizeUnit="Point" fontUnderline="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" multilineHeightUnit="Percentage" fontSize="9" multilineHeight="1" textColor="67,168,215,255" isExpression="1" fontKerning="1" legendString="Aa" namedStyle="Book" forcedBold="0" fontStrikeout="0" useSubstitutions="0" textOpacity="1">
             <families/>
@@ -2622,7 +2526,7 @@
           </callout>
         </settings>
       </rule>
-      <rule scalemindenom="1" description="School" key="{23a5d92a-2a77-40ee-b2c4-e0219a0f2bbd}" filter="&quot;amenity&quot;='school' AND &quot;building&quot; IS NULL" scalemaxdenom="10000">
+      <rule scalemindenom="1" description="School" key="{986cee33-24a7-4323-b77b-6bef6daad0e3}" filter="&quot;amenity&quot;='school' AND &quot;building&quot; IS NULL" scalemaxdenom="10000">
         <settings calloutType="simple">
           <text-style previewBkgrdColor="255,255,255,255" fontFamily=".AppleSystemUIFont" capitalization="0" textOrientation="horizontal" fontWeight="50" fontWordSpacing="0" allowHtml="0" blendMode="0" forcedItalic="0" fontLetterSpacing="0" fontItalic="1" fieldName="wordwrap(&quot;name&quot;,12)" fontSizeUnit="Point" fontUnderline="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" multilineHeightUnit="Percentage" fontSize="7.5" multilineHeight="1" textColor="83,83,43,255" isExpression="1" fontKerning="1" legendString="Aa" namedStyle="Oblique" forcedBold="0" fontStrikeout="0" useSubstitutions="0" textOpacity="1">
             <families/>
@@ -2707,7 +2611,7 @@
           </callout>
         </settings>
       </rule>
-      <rule description="Protected Area" key="{15c798e9-c42b-4a82-8761-335177d4b7c5}" filter="&quot;boundary&quot;='protected_area' AND &quot;leisure&quot;='nature_reserve'">
+      <rule description="Protected Area" key="{d3091b54-771f-492e-a4a5-63d2dda532e8}" filter="&quot;boundary&quot;='protected_area' AND &quot;leisure&quot;='nature_reserve'">
         <settings calloutType="simple">
           <text-style previewBkgrdColor="255,255,255,255" fontFamily=".AppleSystemUIFont" capitalization="0" textOrientation="horizontal" fontWeight="50" fontWordSpacing="0" allowHtml="0" blendMode="0" forcedItalic="0" fontLetterSpacing="0" fontItalic="1" fieldName="wordwrap(&quot;name&quot;,12)" fontSizeUnit="Point" fontUnderline="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" multilineHeightUnit="Percentage" fontSize="8" multilineHeight="1" textColor="66,124,69,255" isExpression="1" fontKerning="1" legendString="Aa" namedStyle="Oblique" forcedBold="0" fontStrikeout="0" useSubstitutions="0" textOpacity="1">
             <families/>
